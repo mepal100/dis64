@@ -6,7 +6,7 @@ const botRem = new Discord.Client();
 
 //Set listener on 'ready'
 botRem.on('ready', () => {
-  console.log('Rem ready!');
+  console.log('GM Jane ready!');
 });
 
 //Set listener on 'message'
@@ -16,4 +16,4 @@ botRem.on('message', message => {
   }
 });
 
-botRem.login('YOUR BOT TOKEN HERE!!!');
+botRem.login('399869036688834560');

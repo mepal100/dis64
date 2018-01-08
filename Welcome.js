@@ -11,8 +11,8 @@ botRem.on('ready', () => {
 
 //Set listener on 'message'
 botRem.on('message', message => {
-  if (message.content === 'ฉันรักเอมิเลีย') {
-    message.reply('ถึงยังไงเรมก็รักสุบารุค่ะ');
+  if (message.content === 'hi') {
+    message.reply('No hi for you');
   }
 });
 
